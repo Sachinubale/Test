@@ -9,12 +9,12 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features={"src/test/resources/featureFileFolder/DemoQAFormFeatureFile.feature"},
-		glue={"stepDefination"},
+		glue={"stepDefination"})
 		//tags= "@validLogin or @InvalidLogin",
 				
 //				plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 //						}
-		monochrome = true	)
+		//monochrome = true	)
 
 public class TestrunnerLibrary {
 
