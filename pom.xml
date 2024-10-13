@@ -126,7 +126,7 @@
                 <version>2.22.2</version>
                 <configuration>
                     <includes>
-                        <include>**/Test.java</include>
+                        <include>TestrunnerLibrary.java</include>
                     </includes>
                 </configuration>
             </plugin>
